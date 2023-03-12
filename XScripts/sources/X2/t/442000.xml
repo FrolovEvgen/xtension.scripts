@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language id="44">
+ <page id="2008" title="Script Object Command" descr="">
+  <t id="928">CMD_TURRET_AI_DEF</t>
+  <t id="929">CMD_TURRET_AI_ATK</t>   
+ </page>
+ <page id="2010" title="Commands" descr="">
+  <t id="928">Turret AI: Defense</t>
+  <t id="929">Turret AI: Attack</t>
+ </page>
+ <page id="2011" title="Commands" descr="">
+  <t id="928">TAI Def.</t>
+  <t id="929">TAI Atk.</t> 
+ </page>
+</language>
