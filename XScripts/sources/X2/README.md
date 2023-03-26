@@ -33,6 +33,15 @@ Destroy all enemies in range, in order of priority:
 
 If script has no target it will save when it is selected.
 
+### Station: Sale price managment
+
+_CMD_STATION_PRICEMANAGER_ 
+
+Parameter: minimum price.
+
+The script change the prise of the good betmin the maximum market price and user 
+defined according the volume in storage.
+
 ## INSTALL
 
 Simple extract this content into the game directory.
