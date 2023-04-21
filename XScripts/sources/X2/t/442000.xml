@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language id="44">
  <page id="2008" title="Script Object Command" descr="">
+  <t id="325">CMD_SHIP_AI_PATROL</t> 
   <t id="928">CMD_TURRET_AI_DEF</t>
   <t id="929">CMD_TURRET_AI_ATK</t> 
   <t id="1123">CMD_STATION_PRICEMANAGER</t>    
  </page>
  <page id="2010" title="Commands" descr="">
+  <t id="325">Ship AI: Patrol</t> 
   <t id="928">Turret AI: Defense</t>
   <t id="929">Turret AI: Attack</t>
   <t id="1123">Station: Sale price managment</t> 
  </page>
  <page id="2011" title="Commands" descr="">
+  <t id="325">SAI Pat.</t> 
   <t id="928">TAI Def.</t>
   <t id="929">TAI Atk.</t> 
   <t id="1123">SAI Prc.Mngmt</t> 
  </page>
  <page id="1621" title="Messages" descr="">
-  <t id="72001">The Price of [blue]%s[/blue] = [red]%s[/red]. This is lower than minimum price of good ([green]%s[/green]).</t>
-  <t id="72002">The Price of [blue]%s[/blue] = [red]%s[/red]. This is greater or equal maximum price of good ([green]%s[/green]).</t>
-  <t id="72003">The Storage of the your station [blue]%s[/blue] is full.</t>
-  <t id="72004">Station [blue]%s[/blue]: Product [blue]%s[/blue] price will update between [green]%s[/green] and [green]%s[/green].</t>
+  <t id="72001">Station [blue]%s[/blue] AI: The Price of [blue]%s[/blue] = [red]%s[/red]. This is lower than minimum price of good ([green]%s[/green]).</t>
+  <t id="72002">Station [blue]%s[/blue] AI: The Price of [blue]%s[/blue] = [red]%s[/red]. This is greater or equal maximum price of good ([green]%s[/green]).</t>
+  <t id="72003">Station [blue]%s[/blue] AI: The Storage is full.</t>
+  <t id="72004">Station [blue]%s[/blue] AI: The price of ware [blue]%s[/blue] will updates between  [green]%s[/green] and [green]%s[/green].</t>
  </page>
 </language>

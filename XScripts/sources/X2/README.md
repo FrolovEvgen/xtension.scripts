@@ -42,6 +42,16 @@ Parameter: minimum price.
 The script change the prise of the good betmin the maximum market price and user 
 defined according the volume in storage.
 
+### Ship AI: Patrol
+
+_CMD_SHIP_AI_PATROL_
+
+Parameter: target sector.
+
+The ship attack all enemy ships in sector. If enemies aren't exists the ship 
+will starts to collect flying wares. If ware is not a missile it will be 
+destryed.
+
 ## INSTALL
 
 Simple extract this content into the game directory.

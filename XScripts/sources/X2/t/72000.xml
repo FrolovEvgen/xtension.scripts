@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language id="7">
  <page id="2008" title="Script Object Command" descr="">
+  <t id="325">CMD_SHIP_AI_PATROL</t> 
   <t id="928">CMD_TURRET_AI_DEF</t>
   <t id="929">CMD_TURRET_AI_ATK</t> 
   <t id="1123">CMD_STATION_PRICEMANAGER</t>  
  </page>   
  <page id="2010" title="Commands" descr="">
+  <t id="325">ИИ Корабля: Патруль</t> 
   <t id="928">ИИ Турели: Оборона</t>
   <t id="929">ИИ Турели: Атака</t>
   <t id="1123">Станция: Управление ценой продаж</t>  
  </page>
  <page id="2011" title="Commands" descr="">
+  <t id="325">ИИК Патр.</t> 
   <t id="928">ИИТ Обр.</t>
   <t id="929">ИИТ Атк.</t> 
   <t id="1123">ИИС Упр.Прод.</t> 
  </page>
  <page id="1621" title="Messages" descr="">
-  <t id="72001">Цена продажи [blue]%s[/blue] = [red]%s[/red], что меньше нинимальной [green]%s[/green].</t>
-  <t id="72002">Цена продажи [blue]%s[/blue] = [red]%s[/red], что больше или равно максимальной [green]%s[/green].</t>
-  <t id="72003">Склад на станции [blue]%s[/blue] заполнен.</t>
-  <t id="72004">Менеджмент станции [blue]%s[/blue]: Цена продукта [blue]%s[/blue] будет изменятся в корридоре между [green]%s[/green] и [green]%s[/green].</t>
+  <t id="72001">ИИ Станции [blue]%s[/blue]: цена продажи [blue]%s[/blue] = [red]%s[/red], что меньше нинимальной [green]%s[/green].</t>
+  <t id="72002">ИИ Станции [blue]%s[/blue]: цена продажи [blue]%s[/blue] = [red]%s[/red], что больше или равно максимальной [green]%s[/green].</t>
+  <t id="72003">ИИ Станции [blue]%s[/blue]: склад заполнен.</t>
+  <t id="72004">ИИ Станции [blue]%s[/blue]: Цена продукта [blue]%s[/blue] будет изменятся в корридоре между [green]%s[/green] и [green]%s[/green].</t>
  </page> 
 </language>
