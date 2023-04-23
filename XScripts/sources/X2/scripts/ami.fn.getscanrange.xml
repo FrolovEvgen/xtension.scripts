@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl" ?>
+<script>
+<name>ami.fn.getscanrange</name>
+<version>1</version>
+<engineversion>25</engineversion>
+<description>Get range of scan.</description>
+<arguments>
+<argument index="1" name="ship" type="Перем/Корабль" desc="Target ship" />
+</arguments>
+<sourcetext>
+<line linenr="001" indent=""><comment><text>*&#160;</text><var>Ship&#160;has&#160;Triplex&#160;Scanner.</var></comment></line>
+<line linenr="002" indent=""><var>skip&#160;if&#160;not&#160;</var><var>$ship&#160;-&gt;</var><text>&#160;get&#160;amount&#160;of&#160;ware&#160;</text><var>Сканер&#160;Мк.3</var><text>&#160;in&#160;cargo&#160;bay</text></line>
+<line linenr="003" indent="&#160;"><text>return&#160;</text><var>60000</var></line>
+<line linenr="004" indent=""></line>
+<line linenr="005" indent=""><comment><text>*&#160;</text><var>Ship&#160;has&#160;Duplex&#160;Scanner.</var></comment></line>
+<line linenr="006" indent=""><var>skip&#160;if&#160;not&#160;</var><var>$ship&#160;-&gt;</var><text>&#160;get&#160;amount&#160;of&#160;ware&#160;</text><var>Сканер&#160;Мк.2</var><text>&#160;in&#160;cargo&#160;bay</text></line>
+<line linenr="007" indent="&#160;"><text>return&#160;</text><var>40000</var></line>
+<line linenr="008" indent=""></line>
+<line linenr="009" indent=""><text>return&#160;</text><var>20000</var></line>
+</sourcetext>
+<codearray>
+<sval type="array" size="10"><sval type="string" val="ami.fn.getscanrange" /><sval type="int" val="25" /><sval type="string" val="Get range of scan." /><sval type="int" val="1" /><sval type="int" val="0" /><sval type="array" size="1"><sval type="string" val="ship" /></sval><sval type="array" size="5"><sval type="array" size="6"><sval type="int" val="618" /><sval type="int" val="131074" /><sval type="int" val="0" /><sval type="int" val="-1610612216" /><sval type="int" val="9" /><sval type="int" val="1048628" /></sval><sval type="array" size="3"><sval type="int" val="103" /><sval type="int" val="4" /><sval type="int" val="60000" /></sval><sval type="array" size="6"><sval type="int" val="618" /><sval type="int" val="131074" /><sval type="int" val="0" /><sval type="int" val="-1610611704" /><sval type="int" val="9" /><sval type="int" val="1048627" /></sval><sval type="array" size="3"><sval type="int" val="103" /><sval type="int" val="4" /><sval type="int" val="40000" /></sval><sval type="array" size="3"><sval type="int" val="103" /><sval type="int" val="4" /><sval type="int" val="20000" /></sval></sval><sval type="array" size="1"><sval type="array" size="2"><sval type="int" val="21" /><sval type="string" val="Target ship" /></sval></sval><sval type="array" size="4"><sval type="array" size="3"><sval type="int" val="0" /><sval type="int" val="1" /><sval type="string" val="Ship has Triplex Scanner." /></sval><sval type="array" size="2"><sval type="int" val="2" /><sval type="int" val="2" /></sval><sval type="array" size="3"><sval type="int" val="2" /><sval type="int" val="1" /><sval type="string" val="Ship has Duplex Scanner." /></sval><sval type="array" size="2"><sval type="int" val="4" /><sval type="int" val="2" /></sval></sval><sval type="int" val="0" /></sval>
+</codearray>
+</script>
